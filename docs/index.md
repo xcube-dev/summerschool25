@@ -15,6 +15,9 @@ In this course, you'll get to know:
 
 ## Requirements
 
+To follow along with the course content, you'll need to have the following
+installed and working on your computer:
+
 - Your preferred **terminal emulator**, preferably running the bash shell.
 - A **conda-based Python environment**, which we'll use to set up an
   environment in which to run the Python tools. I recommend
@@ -26,8 +29,8 @@ In this course, you'll get to know:
 
 If there's enough time at the end, we'll also set up an Application Package
 Platform using [ZOO](https://zoo-project.org/) and use it to run an
-Application Package locally! If you want to follow along with this on your own
-computer, you should have the following installed:
+Application Package locally! If you also want to follow along with this on
+your own machine, you should have the following installed:
 
 - [minikube](https://minikube.sigs.k8s.io/docs/start/)
 - [helm](https://helm.sh/)
