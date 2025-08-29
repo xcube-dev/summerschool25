@@ -55,3 +55,37 @@ your own machine, you should have the following installed:
    a fully-fledged Application Package platform – on a local computer.
    If you've pre-installed the optional requirements (see above), you
    can follow along on your own machine.
+
+## Background reading
+
+**None** of these links are required reading, but they're good starting points
+if you want to do some extra preparation or if you're curious about the
+technologies involved.
+
+- [OGC Best Practice for Earth Observation Application Package](https://docs.ogc.org/bp/20-089r1.html)
+  is the official document defining Application Packages. It's long, detailed,
+  technical, and *not* recommended for reading all the way through, but it's
+  the official reference if you ever want to look up some technical detail.
+- [Earth Observation Application Package resources at
+  eoap.github.io](https://eoap.github.io/), a collection of hands-on
+  Application Package tutorials. A much friendlier introduction than the
+  official definition document!
+- The [Common Workflow Language (CWL) user
+  guide](https://www.commonwl.org/user_guide/) introduces the language
+  used to write Application Package definitions.
+- [A docker tutorial for beginners](https://docker-curriculum.com/).
+  Application Packages rely on Docker container images to package their code.
+  This tutorial is a good starting point if you haven't worked with Docker
+  before.
+- The [xcengine documentation](https://xcube-dev.github.io/xcengine/) and
+  [GitHub repository](https://github.com/xcube-dev/xcengine). xcengine
+  currently has limited documentation, but if you're curious you can
+  install it from the repository and try out one of the examples.
+- The [xcube documentation](https://xcube.readthedocs.io/). We won't be
+  using xcube extensively during the course, but we'll run an xcube
+  server and viewer from a generated docker image.
+- The [xcube Viewer](https://xcube-dev.github.io/xcube-viewer/) documentation
+  and the [public xcube Viewer demo](https://bc-viewer.brockmann-consult.de/).
+  In the course we'll start an xcube Viewer from a docker image, but we
+  won't do any serious work in the Viewer. Nevertheless, you might want
+  to try it out in advance.
