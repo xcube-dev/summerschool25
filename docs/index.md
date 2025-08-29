@@ -36,6 +36,14 @@ your own machine, you should have the following installed:
 - [helm](https://helm.sh/)
 - [kubectl](https://kubernetes.io/docs/tasks/tools/#kubectl)
 
+## The course GitHub repository
+
+The resources for the course are in a GitHub repository at
+<https://github.com/xcube-dev/summerschool25/>.
+
+Use git to clone this repository onto your computer and follow the
+instructions in the `README.md` file to get set up.
+
 ## Outline of course content
 
 1. I'll give a quick introduction to Application Packages, what they're useful
