@@ -1,0 +1,23 @@
+name: summerschool25
+channels:
+  - conda-forge
+dependencies:
+  # Python
+  - python >=3.11
+  # For xcengine
+  - click
+  - docker-py
+  - ipython  # Used by nbconvert to transform IPython syntax to pure Python
+  - nbconvert
+  - nbformat
+  - pystac
+  - pyyaml >=5.1
+  - xarray
+  - xcube
+  - cwltool
+  # Miscellaneous
+  - jupyterlab
+  # xcengine itself, and pip to install it
+  - pip
+  - pip:
+    - git+https://github.com/xcube-dev/xcengine.git@main

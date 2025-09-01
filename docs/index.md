@@ -39,7 +39,8 @@ your own machine, you should have the following installed:
 ## The course GitHub repository
 
 The resources for the course are in a GitHub repository at
-<https://github.com/xcube-dev/summerschool25/>.
+<https://github.com/xcube-dev/summerschool25/> (which also contains the
+source text for this web page).
 
 Use git to clone this repository onto your computer and follow the
 instructions in the `README.md` file to get set up.
