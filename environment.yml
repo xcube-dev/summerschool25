@@ -7,17 +7,20 @@ dependencies:
   # For xcengine
   - click
   - docker-py
-  - ipython  # Used by nbconvert to transform IPython syntax to pure Python
+  - ipython
   - nbconvert
   - nbformat
   - pystac
   - pyyaml >=5.1
   - xarray
-  - xcube
+  - xcube >=1.8.3
   - cwltool
-  # Miscellaneous
+  # For the example notebook
+  - matplotlib-base
+  # We use Jupyter Lab as the main learning environment for the course.
   - jupyterlab
-  # xcengine itself, and pip to install it
+  # xcengine itself, and pip to install it. There's a conda-forge package for
+  # xcengine, but here we want the very latest version straight from GitHub.
   - pip
   - pip:
     - git+https://github.com/xcube-dev/xcengine.git@main
