@@ -3,6 +3,11 @@
 Welcome to the Summer School 2025 course on xcube and Application Packages!
 To get started with the course materials:
 
+Make sure you have the requirements installed, as listed at
+https://xcube-dev.github.io/summerschool25/ .
+
+Use git to clone this repository to your own computer.
+
 If you don't already have conda or mamba installed, go to
 <https://mamba.readthedocs.io/en/latest/installation/mamba-installation.html>
 and follow the instructions to install mamba.
