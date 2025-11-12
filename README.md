@@ -19,7 +19,7 @@ Run the commands
 ```
 mamba env create
 mamba activate summerschool25
-jupyter-lab summerschool25
+jupyter-lab
 ```
 
 (If you're using conda rather than mamba, substitute `conda` for `mamba`
